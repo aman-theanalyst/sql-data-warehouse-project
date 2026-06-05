@@ -20,8 +20,8 @@ Note: In PostgreSQL, CREATE DATABASE does not automatically switch your connecti
 SELECT current_database();
 
 -- Create 'DataWarehouse' Database
-DROP DATABASE IF EXISTS datawarehouse; 
-CREATE DATABASE datawarehouse;
+DROP DATABASE IF EXISTS "DataWarehouse"; 
+CREATE DATABASE "DataWarehouse";
 
 -- Connect to 'DataWarehouse' Database and open the Query tool
 
